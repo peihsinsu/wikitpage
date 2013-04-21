@@ -55,6 +55,8 @@ $(document).ready(function(){
     window.open(edit_url);
   });
 
+  
+
 
 });
 
