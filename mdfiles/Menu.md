@@ -1,11 +1,13 @@
 
-* [WikitPage Git](https://github.com/peihsinsu/wikitpage)
+* [GitHub](https://github.com/peihsinsu/wikitpage)
 * [Sandbox](index.html?page=Sandbox.md)
 * [Read Me](index.html?page=../README.md)
 ---
 
-[Test2](#)
+[README](index.html?page=../README.md)
 
-[Test2](#)
+[Install Instruction](index.html?page=Install.md)
 
-[Test2](#)
+[Rule & Syntax Sample](index.html?page=Syntax.md)
+
+[Advance Customize](index.html?page=Customize.md)

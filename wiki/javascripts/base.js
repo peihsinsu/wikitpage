@@ -20,30 +20,7 @@ $(document).ready(function(){
       });
     });
 
-    $('#show').click(function() { 
-      $.blockUI({ 
-        message: $('#md'), 
-        onOverlayClick: $.unblockUI,
-        css: { 
-          border: 'none', 
-          padding: '15px', 
-          backgroundColor: '#000', 
-          '-webkit-border-radius': '10px',  
-          '-moz-border-radius': '10px', 
-          opacity: .8, 
-          color: '#fff', 
-          "vertical-align": "left",
-          top:  "30px",
-          left: ($(window).width() - 810) /2 + 'px', 
-          width: '810px' 
-        }
-      }); 
-    });
-
-    $('#edit').click(function(){
-      var edit_url = 'https://github.com/'+config.user+'/'+config.project+'/edit/master/'+p+'#fullscreen_blob_contents';
-      window.open(edit_url);
-    });
+    
   } else {
     $('#pagename').html('Welcome');
     
@@ -51,6 +28,32 @@ $(document).ready(function(){
       $('#page').html(htmlUnescape(marked($('#md').html())));  
     });
   }
+
+  $('#show').click(function() { 
+    $.blockUI({ 
+      message: $('#md'), 
+      onOverlayClick: $.unblockUI,
+      css: { 
+        border: 'none', 
+        padding: '15px', 
+        backgroundColor: '#000', 
+        '-webkit-border-radius': '10px',  
+        '-moz-border-radius': '10px', 
+        opacity: .8, 
+        color: '#fff', 
+        "vertical-align": "left",
+        top:  "30px",
+        left: ($(window).width() - 810) /2 + 'px', 
+        width: '810px' 
+      }
+    }); 
+  });
+
+  $('#edit').click(function(){
+    var edit_url = 'https://github.com/' + config.user + '/' + config.project + '/edit/' + 'gh-pages/' + config.md_folder_name + '/' + (p?p:config.welcome_page);
+    alert(edit_url);
+    window.open(edit_url);
+  });
 
 
 });
