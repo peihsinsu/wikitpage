@@ -51,11 +51,10 @@ $(document).ready(function(){
 
   $('#edit').click(function(){
     var edit_url = 'https://github.com/' + config.user + '/' + config.project + '/edit/' + 'gh-pages/' + config.md_folder_name + '/' + (p?p:config.welcome_page);
-    alert(edit_url);
     window.open(edit_url);
   });
 
-  
+
 
 
 });
