@@ -1,10 +1,10 @@
 
 * [GitHub](https://github.com/peihsinsu/wikitpage)
-* [Sandbox](index.html?page=Sandbox.md)
-* [Read Me](index.html?page=../README.md)
+* [Readme](index.html?page=../README.md)
+* [About Me](http://about.me/peihsinsu)
 ---
 
-[README](index.html?page=../README.md)
+[WikitPage Readme](index.html?page=../README.md)
 
 [Install Instruction](index.html?page=Install.md)
 

@@ -22,7 +22,7 @@ ex: [Syntax Page](index.html?page=Syntax.md)
 ```
 Because all the parsing of the wikitpage are using javascript to get the related md file, and display. So you need to using the "index.html?page=" to load the md file name. 
 
-### HTML Tab
+### HTML Tag - Flash
 You can use html tag directly inside the md file. For example to use embed tag to include youtube video:
 ```
 <embed width="420" height="345" 
@@ -31,6 +31,12 @@ You can use html tag directly inside the md file. For example to use embed tag t
 ```
 
 If you want to use image, video, audio... you need to use HTML for dispkay.
+
+
+### HTML Tag = Image
+```
+<img src="https://portal.micloud.tw/images/logo.png"/>
+```
 
 ### h1, h2, h3 Level Header
 ```
@@ -58,4 +64,10 @@ Show Like:
   * Level 1-1 item
     * Level 1-1-1 item
 
+
+## Table
+
+| aaaa | bbbb | cccc |
+| ---- | ---- | ---- |
+| 1111 | 2222 | 3333 |
 
