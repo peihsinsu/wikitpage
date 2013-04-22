@@ -1,6 +1,6 @@
 
 * [GitHub](https://github.com/peihsinsu/wikitpage)
-* [Readme](index.html?page=../README.md)
+* [Fork](https://github.com/peihsinsu/wikitpage/fork)
 * [About Me](http://about.me/peihsinsu)
 ---
 

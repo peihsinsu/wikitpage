@@ -54,7 +54,10 @@ $(document).ready(function(){
     window.open(edit_url);
   });
 
-
+  $('#new').click(function(){
+    var new_url = 'https://github.com/' + config.user + '/' + config.project + '/new/gh-pages';
+    window.open(edit_url);
+  });
 
 
 });
