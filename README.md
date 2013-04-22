@@ -19,7 +19,7 @@ Follow the [Install Instruction](index.html?page=Install.md) to create your priv
   * html: using github edit (open your github project, and select your file, then click edit...)
   * md file: when view the wiki, using the "Edit" button in the right-top.
 
-<font color="red">__As my use experience, Github Page need the first commit/push to complete the process to use.__</font>
+<font color="red">As my use experience, Github Page need the first commit/push to complete the process to use.</font>
 
 ## Use - Other Web Server Hosted
 
